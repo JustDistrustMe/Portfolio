@@ -8,13 +8,19 @@ const Home = () => {
     const nameArray = ['i','c','t','o','r']
     const jobArray = ['w','e','b',' ','d','e','v','e','l','o','p','e','r','.']
 
+
     const v = <img src={LogoTitle} alt="develo,per" />
     
+
+
+
+
     return (
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
                     Hi, <br />
+
                     I'm {v}
                     <AnimatedLetters letterClass={letterClass}
                     stringArray={nameArray}
@@ -24,6 +30,9 @@ const Home = () => {
                     stringArray={jobArray}
                     idx={22} />
                     
+                    I'm {v}ictor<br />
+                    web developer
+
                 </h1>
     
                 <h2>Frontend Developer / JavaScript Expert(sort of)</h2>
