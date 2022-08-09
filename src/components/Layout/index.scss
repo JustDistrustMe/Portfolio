@@ -4,7 +4,8 @@
     position: absolute;
 }
 
-.top_tags {
+.top-tags {
+    position: absolute;
     bottom: auto;
     top: 35px;
 }
@@ -36,5 +37,5 @@
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
-
+    
 }
