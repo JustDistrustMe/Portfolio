@@ -4,7 +4,7 @@ import './index.scss';
 import { useState } from 'react';
 import AnimatedLetters from '../../AnimatedLetters';
 const Home = () => {
-    const [letterClass, setLetterClass] = useState ('text-animate')
+    const [letterClass] = useState ('text-animate')
     const nameArray = ['i','c','t','o','r']
     const jobArray = ['w','e','b',' ','d','e','v','e','l','o','p','e','r','.']
 
